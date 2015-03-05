@@ -19,6 +19,8 @@ echo "<br>" . $oi->digaMoto();
 $oi = new Jet();
 echo "<br>" . $oi->digaJet();*/
 
+// essa linha mostra os dados do DB
+
 $scon = Conecta\Conn::getInstance();
 $prepara = $scon->prepare('SELECT id_usuario, nr_cpf, senha, no_usuario, email, ativo FROM usuario');
 $prepara->execute();
