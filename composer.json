@@ -1,0 +1,22 @@
+{
+    "name": "phpr/base",
+    "description": "projeto base de teste do composer com autoloader.",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    },
+    "authors": [
+        {
+            "name": "Pedro H. P. Rocha",
+            "email": "cefas.pedro.rocha@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "PedroRocha\\Lancha\\": "src",
+            "Phpr\\": "Phpr",
+            "Teste\\": "Teste",
+            "Conecta\\": "Conecta"
+        }
+    }
+
+}
