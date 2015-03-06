@@ -37,6 +37,10 @@ foreach ($linha as $l) {
     echo "<br>" . $l['id_evento'] . " - " . $l['no_evento'];
 }
 
+//copia
+foreach ($linha as $l) {
+    echo "<br>" . $l['id_evento'] . " - " . $l['no_evento'];
+}
 
 /*$log = new Monolog\Logger('name');
 $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
